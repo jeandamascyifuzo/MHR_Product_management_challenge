@@ -7,21 +7,13 @@ import {
   Menu,
   Bell,
   Search,
-  Plus,
-  Download,
-  Filter,
   Calendar,
   ChevronUp,
   ChevronDown,
-  Users,
   DollarSign,
   Package,
 } from "lucide-react";
 import {
-  BarChart,
-  Bar,
-  LineChart,
-  Line,
   PieChart,
   Pie,
   Cell,
@@ -33,9 +25,6 @@ import {
   ResponsiveContainer,
   AreaChart,
   Area,
-  ScatterChart,
-  Scatter,
-  ZAxis,
 } from "recharts";
 
 const App = () => {
