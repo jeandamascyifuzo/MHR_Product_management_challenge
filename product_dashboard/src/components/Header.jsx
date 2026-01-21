@@ -26,17 +26,6 @@ const Header = ({ sidebarOpen, setSidebarOpen }) => {
         </div>
 
         <div className="flex items-center space-x-4">
-          <div className="relative hidden lg:block">
-            <Search
-              className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
-              size={18}
-            />
-            <input
-              type="text"
-              placeholder="Search products, brands, models..."
-              className="pl-10 pr-4 py-2.5 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent w-72 bg-gray-50"
-            />
-          </div>
           <div className="flex items-center space-x-3">
             <button className="p-2.5 rounded-xl hover:bg-gray-100 relative transition-all duration-200 group">
               <Bell

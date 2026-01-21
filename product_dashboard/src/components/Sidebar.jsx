@@ -15,7 +15,6 @@ const Sidebar = ({ sidebarOpen, activeView, setActiveView }) => {
               label="Dashboard"
               active={activeView === "dashboard"}
               onClick={() => setActiveView("dashboard")}
-              count={24}
             />
           </nav>
         </div>
