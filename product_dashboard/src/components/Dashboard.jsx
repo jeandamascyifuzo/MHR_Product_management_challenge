@@ -102,6 +102,14 @@ const Dashboard = () => {
           <>
             {/* Revenue & Profit */}
             <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
+              <div className="flex justify-between items-center mb-6">
+                <div>
+                  <h3 className="text-lg font-bold text-gray-900">
+                    Revenue & Profit
+                  </h3>
+                  <p className="text-sm text-gray-600">Monthly performance</p>
+                </div>
+              </div>
               <div className="h-72">
                 <ResponsiveContainer width="100%" height="100%">
                   <AreaChart data={revenueData}>
@@ -166,6 +174,16 @@ const Dashboard = () => {
       {/* ================= TABLE ================= */}
       {!loading && (
         <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
+          <div className="flex justify-between items-center mb-6">
+            <div>
+              <h3 className="text-lg font-bold text-gray-900">
+                Recent Products
+              </h3>
+              <p className="text-sm text-gray-600">
+                Latest updates in your inventory
+              </p>
+            </div>
+          </div>
           <div className="overflow-x-auto">
             <table className="w-full">
               <thead>
